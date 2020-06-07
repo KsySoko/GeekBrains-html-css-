@@ -1,0 +1,148 @@
+.footer-back{
+	max-width: 1366px;
+	margin: 0 auto;
+	background-image: url(../images/footer-back.png);
+	height: 384px;
+	padding-top: 120px;
+	box-sizing: border-box;
+	margin-top: -384px;
+	clear: both;
+}
+.footer{
+	width: 1170px;
+	display: flex;
+  align-items: flex-start;
+	justify-content: space-between;
+}
+.useful-list{
+	list-style-type: none;
+	height: 26px;
+}
+.contact-us,
+.useful-Info,
+.stay,
+.author,
+.info{
+	display: inline-block;
+}
+.contact-us,
+.useful-Info,{
+	float: left;
+}
+.contact,
+.useful,
+.lets-stay{
+	color: #6c6c6c;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+  margin: 0;
+}
+.contact-list,
+.stay-list{
+	color: #212121;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	margin-bottom: 26px;
+}
+.useful-links{
+	text-decoration: none;
+	color: #212121;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.contact,
+.useful,
+.lets-stay{
+	margin-bottom: 24px;
+}
+.useful-1,
+.useful-2,
+.author,
+.info{
+	display: inline-block;
+}
+.useful-1,
+.useful-2{
+	padding-left: 0;
+	margin-top: 0;
+}
+.useful-1{
+	float: left;
+}
+.useful-2{
+	float: right;
+}
+.stay{
+	float: right;
+	width: 363px;
+	margin-right: -90px;
+}
+.contact-us{
+	width: 221px;
+}
+.useful-Info{
+	width: 422px;
+}
+form{
+	margin-top: 26px;
+}
+.input-stay{
+	width: 335px;
+	height: 48px;
+}
+.search{
+	position: relative;
+}
+[placeholder="your email address"]{
+	color: #6c6c6c;
+	font-size: 14px;
+	font-weight: 300;
+	padding-left: 19px;
+}
+[type="submit"]{
+	width: 35px;
+	height: 48px;
+}
+.button-search{
+	background-image: url(../images/telegramm.png);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	border: #fff;
+	width: 25px;
+  height: 25px;
+	position: absolute;
+	right: 14px;
+	top: 16px;
+}
+.footer-back{
+	position: relative;
+}
+.footer-2{
+	width: 1170px;
+	position: absolute;
+	bottom: 30px;
+	line-height: 28px;
+	display: flex;
+	justify-content: space-between;
+	height: 28px;
+}
+.author,
+.info{
+	color: #6c6c6c;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.info{
+	float: right;
+}
+.icon{
+	font-size: 28px;
+	color: #808080;
+}

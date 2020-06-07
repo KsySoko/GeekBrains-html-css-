@@ -1,0 +1,173 @@
+/* прижатие футера  */
+
+html, body{
+	height: 100%;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.container{
+		max-width: 1366px;
+		margin: 0 auto;
+		min-height: 100%;
+}
+.clr{
+	height: 384px;
+}
+
+/* общие калссы конструкторы */
+.padding-site-wight{
+	padding-right: 98px;
+	padding-left: 98px;
+}
+.padding-site-height{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* навигация */
+.breadcrumbs{
+	height: 70px;
+	background-color: #f4f4f4;
+	margin-top: 29px;
+	text-align: center;
+}
+.crumbs{
+	list-style-type: none;
+}
+.crumbs-list{
+	display: inline-block;
+}
+.crumbs-link {
+	text-decoration: none;
+	color: #6c6c6c;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0 13px;
+	line-height: 70px;
+}
+.crumbs-link:hover{
+	color: #212121;
+}
+.crumbs-link-active{
+	color: #212121;
+}
+
+/* товар с ценой */
+.review{
+	margin-top: 72px;
+}
+.review-img,
+.price{
+	display: inline-block;
+}
+.review-img{
+	float: left;
+}
+.review-h2{
+	color: #212121;
+font-size: 36px;
+font-weight: 700;
+}
+.review-hot-deal{
+	color: #e53935;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 1.8px;
+}
+.review-price{
+	color: #212121;
+	font-weight: 100;
+	letter-spacing: 0.4px;
+}
+.currency{
+	font-size: 48px;
+}
+.cost{
+	font-size: 72px;
+}
+.capacity{
+	font-size: 36px;
+}
+.review-h2,
+.review-hot-deal,
+.review-price{
+	text-align: center;
+}
+.button{
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 4.4px;
+	text-align: center;
+	width: 510px;
+	/* название кнопки по центру */
+	height: 71px;
+	line-height: 71px;
+	background-color: #f44336;
+	border-radius: 35px;
+	box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 21px;
+	margin-bottom: 39px;
+}
+.button:hover{
+	box-shadow: 0 2px 5px 5px rgba(33, 33, 33, 0.35);
+}
+.review-text{
+	color: #212121;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24.01px;
+	margin-left: 5px;
+}
+.product-color{
+	margin-top: 11px;
+}
+.product-color-img{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.review-img{
+	width: 570px;
+	text-align: center;
+}
+.price{
+	margin-left: 61px;
+	width: 499px;
+}
+.related-product{
+	margin-top: 200px;
+}
+.related-product-h3{
+	color: #212121;
+	font-size: 36px;
+	font-weight: 700;
+	display: inline-block;
+}
+.explore-all-active{
+	color: #212121;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	float: right;
+	height: 113px;
+	line-height: 113px;
+	text-decoration: none;
+	letter-spacing: 3.6px;
+}
+.related-product-img{
+	display: flex;
+  justify-content: space-between;
+	padding-top: 26px;
+	padding-bottom: 120px;
+}
